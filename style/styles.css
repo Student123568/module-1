@@ -1,0 +1,76 @@
+
+main {
+    margin: 0 auto;
+    width: 1400px;
+    font-family: "Manrope", sans-serif;
+    color: #121212;
+    background: #ffffff;
+    font-weight: 400;
+    padding: 128px 125px 0 125px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    width: 956px;
+
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+}
+
+.preview-wrapper {
+    background-image: url(../resources/studio-view.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 1150px;
+    height: 500px;
+    padding-top: 370px; 
+    padding-left: 40px; 
+}
+
+.preview-wrapper p{
+    width: 430px;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.about-us-wrapper {
+    width: 1051px;
+    margin: 0px 99px 0 0;
+}
+
+h2 {
+    margin: 0 1000px 30px 0;
+
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.about-us-wrapper p{
+    margin: 0 0 30px 3px;
+
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+}
+
+.about-us-wrapper-button {
+    display: block;
+    
+    margin-right: 796px;
+    width: 255px;
+    height: 67px;
+    border-radius: 5px;
+
+    background-color: #ad1818;
+    color: #fff;
+    line-height: 67px;
+    text-align: center;
+
+    text-decoration: none;
+}
