@@ -1,0 +1,39 @@
+.fullContainer {
+    width: 100%;
+    height: 717px;
+
+    background-image: url(../resources/full-contain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.fullContainer__text {
+    position: relative;
+    background-color: #ad1818;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.fullContainer__text p {
+    position: absolute;
+    top: 575px;
+
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 400px) {
+    
+}

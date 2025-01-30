@@ -1,0 +1,41 @@
+address {
+    width: 1400px;
+    position: relative;
+    margin: 0 auto;
+    padding: 186px 0  0 124px;
+}
+
+address::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top:  150px;
+    left: 120px;
+    
+    background-image: url(../resources/mobile.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+address a {
+    font-size: 60px; 
+    line-height: 100%; 
+    letter-spacing: -0.03em; 
+    color: black;
+}
+
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 400px) {
+    
+}

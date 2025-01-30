@@ -1,0 +1,45 @@
+header {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 32.82px 125px 0 124.65px;
+}
+
+
+header nav {
+    float: right;
+}
+
+.nav_link {
+    margin-left: 60px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #121212;
+}
+
+.nav_link:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+
+.nav_link:last-child {
+    margin-right: 0px;
+}
+
+
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 400px) {
+    
+}

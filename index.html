@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Метрика</title>
+    <link rel="icon" type="image/png" href="resources/favicon.png">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,51 +13,93 @@
     <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-    <header>
+     <!-- <header>
         <img 
             class="nav_logo_link" 
             src="resources/logo-metrika.png" 
-            alt="Логотип Метрика"
-        >
+            alt="Логотип Метрика">
         <nav >
-            <a href="#about_us" class="nav_link">о нас</a>
-            <a href="#projects" class="nav_link">проекты</a>
+            <a href="#about-us__text" class="nav_link">о нас</a>
+            <a href="resources/favicon.png" class="nav_link">проекты</a>
             <a href="#services" class="nav_link">услуги</a>
             <a href="#contacts" class="nav_link">контакты</a>
         </nav>         
-    </header>
-    <main>
-        <section class="previewWrapper" style="margin-bottom: 150px;" >
-            <h1>Современные и стильные интерьеры для комфортной жизни</h1>
-            <div class="previewWrapper__text">
-                <p>Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p>
-            </div>
-        </section>
-        <section class="aboutUsWrapper">
-            <h2 id="about_us">О НАС</h2>
-            <p >Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
-            <a class="aboutUsWrapperButton" href="#services">Посмотреть услуги</a>
-        </section> 
-        <section class="ItemListWrapper">
-            <h2 id="projects">ПРОЕКТЫ</h2>
-            <div class="item-wrapper">
-                <img src="resources/right-bank.jpg" alt="">
-                <p>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
-                <a href="">Подробнее →</a>
-            </div>
-            <div class="item-wrapper">
-                <img src="resources/norwegian-park.png" alt="">
-                <p>ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
-                <a href="">Подробнее →</a>
-            </div>
-            <div class="item-wrapper">
-                <img src="resources/sosnovsky-lakes.png" alt="">
-                <p>ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
-                <a href="">Подробнее →</a>
-            </div>
-            <a class="all-item" href="#projects">Смотреть все проекты</a>
-        </section>
-        <section class="ItemListServicesWrapper">
+    </header>    -->
+    <main> 
+        <div class="main-container">
+            <section class="intro" >
+                <h1 class="intro-text">Современные и стильные<br> интерьеры для комфортной жизни</h1>
+                <div class="intro-image">
+                    <p class="intro-image__text">
+                        Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p>
+                </div>      
+            </section>
+            <section class="about-us">
+                <h2 id="about-us__title">О НАС</h2>
+                <p class="about-us__text">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
+                <a class="about-us__button" href="#services">Посмотреть услуги</a>
+            </section>  
+
+            <section class="item-list">
+                <h2 id="item-list__title">ПРОЕКТЫ</h2>
+                <div class="projects">
+                    <picture>
+                        <source
+                            media="(max-width: 767px)";
+                            srcset="resources/right_mobile.png"                        
+                        />
+                        <source
+                            media="(max-width: 1199px)";
+                            srcset="resources/right_tablet.png"                        
+                        />
+                        <img 
+                        class="projects__image"
+                        src="resources/right.jpg" 
+                        alt="">
+                    </picture>
+                    <h3 class="projects__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+                    <a class="projects__link" href="">Подробнее →</a>
+                </div>
+                <div class="projects">
+                    <picture>
+                        <source
+                            media="(max-width: 767px)";
+                            srcset="resources/norway_mobile.png"                        
+                        />
+                        <source
+                            media="(max-width: 1199px)";
+                            srcset="resources/norway_tablet.png"                        
+                        />
+                        <img 
+                            class="projects__image"
+                            src="resources/norway.png" 
+                            alt="">
+                    </picture>
+                    <h3 class="projects__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+                    <a class="projects__link" href="">Подробнее →</a>
+                </div>
+                <div class="projects">
+                    <picture>
+                        <source
+                            media="(max-width: 767px)";
+                            srcset="resources/sosnov_mobile.png"                        
+                        />
+                        <source
+                            media="(max-width: 1199px)";
+                            srcset="resources/sosnov_tablet.png"                        
+                        />
+                        <img 
+                            class="projects__image"
+                            src="resources/sosnov.png" 
+                            alt="">
+                    </picture>
+                    <h3 class="projects__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+                    <a class="projects__link" href="">Подробнее →</a>
+                </div>
+                <a class="projects__button" href="#projects">Смотреть все проекты</a>
+            </section>
+        </div>  
+        <!-- <section class="ItemListServicesWrapper">
             <div class="item_list-services">
                 <h2 id="services" class="item-services-text">Услуги</h2>
                 <div class="item-list-wrapper">
@@ -94,9 +137,9 @@
                     hello@mail.com
                 </a>
             </p>
-        </address>
+        </address>  --> 
     </main>
-    <footer>
+<!-- <footer>
         <div class="footerWrapper">
             <p class="footerWrapper__link" ><a href="#about_us">о нас</a></p>
             <p class="footerWrapper__link" ><a href="#projects">проекты</a></p>
@@ -104,6 +147,6 @@
             <p class="footerWrapper__link" ><a href="#contacts">контакты</a></p>
         </div>
         <p>студия дизайна интерьера Метрика — 2023</p>
-    </footer>
+    </footer> --> 
 </body>
 </html>
