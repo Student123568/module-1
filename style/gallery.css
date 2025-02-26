@@ -45,7 +45,7 @@
 }
 
 .gallery__next {
-    background-image: url(/resources/left.png);
+    background-image: url(../resources/left.png);
     transform: rotate(180deg);
 }
 
