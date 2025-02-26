@@ -40,7 +40,7 @@
 }
 
 .gallery__prev {
-    background-image: url(/resources/left.png);
+    background-image: url(../resources/left.png);
     background-position: left;
 }
 
