@@ -1,6 +1,3 @@
-.item-list {
-    margin-bottom: 150px;
-}
 
 .projects__image {
     width: 1150px;
@@ -27,6 +24,7 @@
 
 .projects__button {
     display: block;
+    margin-bottom: 150px;
 
     border: 1px solid #ad1818;
     border-radius: 5px;
@@ -46,10 +44,6 @@
 
 
 @media (max-width: 1199px) {
-    .item-list {
-        margin-bottom: 100px;
-    }
-
     .projects__image {
         width: 100%;
         object-fit: cover;
@@ -68,8 +62,8 @@
 }
 
 @media (max-width: 767px) {
-    .item-list {
-        margin-bottom: 80px;
+    .projects__button {
+        margin-bottom: 100px;
     }
 
     #item-list__title {
@@ -100,6 +94,7 @@
 @media (max-width: 400px) {
     .projects__button {
         display: block;
+        margin-bottom: 80px;
         width: 100%;
         font-size: 22px;
         line-height: 100px;

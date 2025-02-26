@@ -1,11 +1,15 @@
+@import url(title.css);
 @import url('header.css');
+@import url(burger.css);
 @import url('intro.css');
 @import url('about-us.css');
 @import url('item-list.css');
 @import url('services.css');
 @import url('address.css');
-@import url('gallery.css');
+@import url('gallery.css'); 
 @import url('footer.css');
+@import url(feedback.css);
+@import url(popup.css);
 
 
 html {
@@ -14,57 +18,60 @@ html {
 
 
 body{
-    width: 100%; 
+    /* width: 100%;  */
+    letter-spacing: -0.03em;
     font-family: "Manrope", sans-serif;
     color: #121212;
     background: #ffffff;
     font-weight: 400;
-    overflow-x: hidden; 
     background-color: #fff;
-
 }
 
-h1,
-h2,
-h3,
-a,
-p,
-div
-    {
-    letter-spacing: -0.03em;
+.body_fixed {
+    overflow: hidden;
 }
 
-h2 {
-    margin-bottom: 30px;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: uppercase;
-}
-
-main {
-    padding-top: 70px;
-}
-
-
-.main-container {
+section,
+.container {
     width: 1150px;
     margin: 0 auto;
 }
 
+section,
+.container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.section-full {
+    width: 100%;
+}
+
+.section-nopadd {
+    padding: 0;
+}
+
+section:first-child {
+    padding-top: 0px;
+}
+
+
 @media (max-width: 1199px) {
-    .main-container {
+    section,
+    .container {
         width: 100%;
-        padding-left: 15px;
         padding-right: 15px;
+        padding-left: 17px;
     }
+
 }
 
 
 @media (max-width: 767px) {
-    .main-container {
-        width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
+    section,
+    .container {
+        padding-right: 12px;
+        padding-left: 13px;
     }
 
     h2 {
@@ -73,6 +80,7 @@ main {
         line-height: 19px;
     }
 }
+
 
 @media (max-width: 400px) {
 

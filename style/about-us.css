@@ -1,8 +1,4 @@
 
-.about-us {
-    margin-bottom: 150px;
-}
-
 .about-us__text{
     width: 1051px; 
     margin-bottom: 30px;
@@ -14,6 +10,7 @@
 .about-us__button {
     display: block;
     width: 255px;
+    margin-bottom: 150px;
     border-radius: 5px;
     background-color: #ad1818;
     color: #fff;
@@ -27,10 +24,6 @@
 
 
 @media (max-width: 1199px) {
-    .about-us {
-        margin-bottom: 120px;
-    }
-
     .about-us__text{
         width: 690px; 
         margin-bottom: 30px;
@@ -39,16 +32,20 @@
         line-height: 48px;
     }   
 
+    .about-us__button {
+        margin-bottom: 120px
+    }
+
 }
 
 
 @media (max-width: 767px) {
-    .about-us {
-        margin-bottom: 80px;
-    }
-
     .about-us__text {
         width: 100%;
+    }
+
+    .about-us__button {
+        margin-bottom: 80px
     }
 
 }
