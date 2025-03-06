@@ -1,0 +1,84 @@
+@import url(title.css);
+@import url('header.css');
+@import url(burger.css);
+@import url('intro.css');
+@import url('about-us.css');
+@import url('item-list.css');
+@import url('services.css');
+@import url('address.css');
+@import url('gallery.css'); 
+@import url('footer.css');
+@import url(feedback.css);
+@import url(popup.css);
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    /* width: 100%;  */
+    /* letter-spacing: -0.03em; */
+    font-family: "Manrope", sans-serif;
+    color: #121212;
+    background: #ffffff;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+.body_fixed {
+    overflow: hidden;
+}
+
+section,
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+
+.section-full {
+    width: 100%;
+}
+
+.section-nopadd {
+    padding: 0;
+}
+
+section:first-child {
+    padding-top: 0px;
+}
+
+
+@media (max-width: 1199px) {
+    section,
+    .container {
+        width: 100%;
+        padding: 0 17px 120px 15px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    section,
+    .container {
+        padding-right: 12px;
+        padding-left: 13px;
+        padding: 0 13px 80px 12px;
+    }
+
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+
+}
