@@ -93,7 +93,7 @@ header {
         right: 20px;
         width: 34px;
         height: 34px;
-        background-image: url(/resources/close.png); 
+        background-image: url(../resources/close.png); 
         background-repeat: no-repeat;
         background-position: center;
         z-index: 1000;
